@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>1022網頁隋棠作業</title>
+</head>
+<body>
+<pre>
+<h1>feacbook</h1>
+<img src="cat.jpeg">
+<a href="#intro">簡介</a>
+<a href="#acti">內部連結1</a>
+<a href="#singer">內部連結2</a>
+<a href="about.html"target="_blank">外部連結</a>
+<h2 id="intro">簡介</h2>
+
+<p>歡迎來到橡子合唱團的主頁。我叫健二。我喜歡錄音機，所以當我每天在森林裡練習的時候，鳥兒開始跟著錄音機唱歌。我每天都練習，進步很大，所以我想讓大家都聽我們的合唱團，所以我決定加入橡果合唱團。</p>
+
+<h2>內部連結1</h2>
+
+<p>橡子合唱團每月舉辦一次<a href="https://www.youtube.com/watch?v=5AoJwvfnN5w" target="_blank">森林音樂會</a>。場地在森林裡。我希望你在欣賞藍天下感受大自然的同時享受合唱。請來聽聽。</p>
+
+<h2 id="singer">內部連結2</h2>
+
+<h3>像雪一樣的島永先生</h3>
+叫聲：Chi Chi、Juliri
+自述：我未來的夢想是和我的朋友一起創建一個偶像團體。請大家支持。
+
+<h3>森林歌姬</h3>
+叫聲：熙費
+自述：說謊是誠實。據說他的聲音像哨子一樣悲傷。
+
+<h3>孤獨的鼓手熊老先生</h3>
+叫聲：Kyororone
+自述：我，一座天然紀念物，用精彩的打擊樂為音樂會增光添彩！
+
+<h3>野鳥使者的弟子健二</h3>
+叫聲：錄音機
+自述：如果有很多人能聽到鳥兒的歌聲，我會很高興。
+</pre>
+
+
+<a href="https://zh-tw.facebook.com/" target="_blank">臉書</a>
+</body>
+</html>
