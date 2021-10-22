@@ -7,7 +7,7 @@
 <body>
 <pre>
 <h1>feacbook</h1>
-<img src="cat.jpeg">
+<img width ="800" height =""src="cat.jpeg">
 <a href="#intro">簡介</a>
 <a href="#acti">內部連結1</a>
 <a href="#singer">內部連結2</a>
@@ -16,7 +16,7 @@
 
 <p>歡迎來到橡子合唱團的主頁。我叫健二。我喜歡錄音機，所以當我每天在森林裡練習的時候，鳥兒開始跟著錄音機唱歌。我每天都練習，進步很大，所以我想讓大家都聽我們的合唱團，所以我決定加入橡果合唱團。</p>
 
-<h2>內部連結1</h2>
+<h2 id="acti">活動概覽</h2>
 
 <p>橡子合唱團每月舉辦一次<a href="https://www.youtube.com/watch?v=5AoJwvfnN5w" target="_blank">森林音樂會</a>。場地在森林裡。我希望你在欣賞藍天下感受大自然的同時享受合唱。請來聽聽。</p>
 
