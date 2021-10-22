@@ -7,7 +7,7 @@
 <body>
 <pre>
 <h1>feacbook</h1>
-<img width ="800" height =""src="cat.jpeg">
+<img width ="800" height ="100"src="cat.jpeg">
 <a href="#intro">簡介</a>
 <a href="#acti">內部連結1</a>
 <a href="#singer">內部連結2</a>
