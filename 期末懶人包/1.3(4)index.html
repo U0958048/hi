@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://tauhu.tw/tauhu-oo.css" rel="stylesheet">
     <!--豆腐烏css嵌入-->
     <meta charset="utf-8">
@@ -42,6 +43,13 @@ width: 40px;
 bottom: 30px;
 right: 10px;
 }
+
+.backbtn {
+position: fixed; //關键
+width: 40px;
+bottom: 20px;
+right: 25px ;
+}
 </style>
 </head>
 <!--字體顏色和大小更改以及懸浮和連結變色-->
@@ -51,7 +59,9 @@ right: 10px;
 
 <body>
 <div class="float-button"> 
-    <img src="cute.png" alt="傷心等" width ="100">
+    <h5><a href="#top" class="backbtn sample16">回選單</a></h5>
+    <a href="#top"><img src="cute.png" alt="傷心等" width ="100"></a>
+    <ul id=menu>
 </div>
 </body><!--懸浮螢火蟲-->
 
@@ -224,7 +234,10 @@ right: 10px;
         </td>
         <td>
             <a href="https://instagram.com/patricia__red?utm_medium=copy_link"target="_blank"><img src="instagram.png"width ="50"></a>
-        </td>        
+        </td>    
+        <td> 
+            <a href="mailto:love13147371@gmail.com" target="_blank"><img src="gmail.png"width ="60"></a>
+        </td>    
     </tr>
 </table><!--圖片與連結-->
 <h4 style="background-color:#C48888;"><a href="#top">//回選單</a>//</h4>
