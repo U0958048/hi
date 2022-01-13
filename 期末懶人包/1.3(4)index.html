@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://tauhu.tw/tauhu-oo.css" rel="stylesheet">
+    <!--豆腐烏css嵌入-->
+    <meta charset="utf-8">
+    <title>保護生態永續賞螢</title>
+    <!--保護生態永續賞螢-->
+    <script type="text/javascript"src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+    <!--jQuery UI(使用者介面/外觀/格式) css語法引用網址-->
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.13.0-rc.3/themes/smoothness/jquery-ui.css"></script>
+    <!--css語法-->
+
+<style type="text/css">
+      h1{color:#642100;font-size: 3em}
+      h2{color:#006030;font-size: 2em}
+      h3{color:#cb2701;font-size: 1.5em}
+      h4{color:#003060;font-size: 1em}
+h5{
+      font-family: tauhu-oo, PingFangTC-Regular, "Microsoft JhengHei", sans-serif;
+font-size: 1.2em;color: #4B0080
+}
+
+.navigation ul li{
+display: inline-block;
+}
+
+.navigation ul li a{
+    color:#134DA0;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    color:#9A1919;
+    text-decoration: underline;
+}
+
+.float-button {
+position: fixed; //關键
+width: 40px;
+bottom: 30px;
+right: 10px;
+}
+
+.backbtn {
+position: fixed; //關键
+width: 40px;
+bottom: 20px;
+right: 25px ;
+}
+
+.black_overlay{ 
+            display: none; 
+            position: absolute; 
+            top: 0%; 
+            left: 0%; 
+            width: 100%; 
+            height: 100%; 
+            background-color: black; 
+            z-index:1001; 
+            -moz-opacity: 0.8; 
+            opacity:.80; 
+            filter: alpha(opacity=88); 
+        } 
+        .white_content { 
+            display: none; 
+            position: absolute; 
+            top: 25%; 
+            left: 25%; 
+            width: 55%; 
+            height: 55%; 
+            padding: 20px; 
+            border: 10px solid orange; 
+            background-color: white; 
+            z-index:1002; 
+            overflow: auto; 
+        } 
+        .black_overlay{ 
+            display: none; 
+            position: absolute; 
+            top: 0%; 
+            left: 0%; 
+            width: 100%; 
+            height: 100%; 
+            background-color: black; 
+            z-index:1001; 
+            -moz-opacity: 0.8; 
+            opacity:.80; 
+            filter: alpha(opacity=88); 
+        } 
+        .white_content { 
+            display: none; 
+            position: absolute; 
+            top: 25%; 
+            left: 25%; 
+            width: 55%; 
+            height: 55%; 
+            padding: 20px; 
+            border: 10px solid orange; 
+            background-color: white; 
+            z-index:1002; 
+            overflow: auto; 
+        } 
+
+#fixed-footer-wrap {
+width: 90%;
+height: 50px; /* 視情況而定 */
+position: fixed;
+bottom: 0px;
+z-index: 3;
+overflow: visible;
+}
+.footer_mobile {
+background-color:#BEA493;
+height: 50px; /* 視情況而定 */
+margin: 0 auto;
+}
+/*固定頁尾 End--------------*/
+</style>
+</head>
+<!--字體顏色和大小更改以及懸浮和連結變色還有點選文字彈出一個DIV層視窗程式碼-->
+
+<body style="background-color:  #D2D0C1;">
+<!--背景顏色更改-->  
+
+<div class="float-button"> 
+    <h5><a href="#top" class="backbtn sample16">回選單</a></h5>
+    <a href="#top"><img src="cute.png" alt="傷心等" width ="100"></a>
+    <ul id=menu>
+</div>
+
+</body><!--懸浮螢火蟲和回選單-->
+
+<center>
+    <img src="lightning bug.jpg" alt="傷心等"width ="1200" height="200" >
+    <!--螢火蟲橫幅-->
+
+    <h1 id="top">保護生態永續賞螢</h1>
+    <!--保護生態永續賞螢-->
+
+     <nav class="navigation">
+        <h4 style="background-color:#B8AE9D; font-size: 1.2em;">
+                <ul>
+                    <li>||<a href="1.3(0)index.html">首頁</a>||<a href="1.3(1)index.html">認識螢火蟲</a>||<a href="1.3(2)index.html">保護螢火蟲</a>||<a href="1.3(3)index.html">設計團隊</a>||<a href="1.3(4)index.html">網站設計結構圖</a>||<a href="https://www.newsmarket.com.tw/blog/49947/" target="_blank">相關網站1</a>||<a href="https://www.sdec.ntpc.edu.tw/epaper/9604/1.htm" target="_blank">相關網站2</a>||<a href="https://hiking.biji.co/index.php?q=news&act=info&id=13394" target="_blank">相關網站3</a>||</li>
+                    
+                </ul>
+            </h4>
+            </nav>
+            <!--選單內部和外部連結以及連結變色動作-->
+
+            <p>這是個精美禮物 👉 <a href = "javascript:void(1)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">點我有驚喜呦！</a></p> 
+        <div id="light" class="white_content"><img src="cute1.jpg" width="250" align="center"><p>螢火蟲在這裡感謝大家～
+<a href = "javascript:void(1)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">點我可以關閉視窗喲！</a></div> 
+        <div id="fade" class="black_overlay"></div>
+        <!--點選文字彈出一個DIV層視窗程式碼-->
+
+<DIV style="background-color:#A2C3B1;width:1250px;height:800px;">
+<!--框框填色-->
+<hr size="10" align="center" noshade width="100%" color="467500">
+<!--水平分線-->
+<pre>
+      
+
+</pre><!--強制控行-->
+    <h2 id="design diagram">網站設計結構圖</h2>
+    <!--網站設計結構圖的內部連結-->
+    <img src="design diagram2.jpg" alt="傷心等"width ="1000">
+    <!--網站設計結構圖資料-->
+</DIV>
+<DIV style="background-color:#BFBBCE;width:1250px;height:2240px;">
+<!--框框填色-->
+<hr size="10" align="center" noshade width="100%" color="467500">
+<!--水平分線-->
+
+<head>
+<style type="text/css">
+.intro{display: none;}
+.img{display: none;}
+</style>
+<!--隱藏動作-->
+<script type="text/javascript">
+        $(document).ready(function(){
+            $(".intro-btn").click(function(){
+                $(".intro").toggle();   
+            })
+        })
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".img-btn").click(function(){
+                $(".img").toggle();   
+            })
+        })
+    </script>
+</head>
+<!--隱藏動作-->
+<p><!--換段-->
+<body>   
+<input type="button" class ="intro-btn"value="客語豆腐烏">
+<!--豆腐烏按紐-->
+<p><!--換段-->
+    <h5><div class="intro">𠊎係乞食命皇帝嘴，好食懶做，下二擺愛仰般搞𪹚龍？ 𪘒𪹚𫝘𫟧𫠛𫣆𬠖󿕅</div></h5>
+    <!--客語文字展現-->
+<pre>
+    
+</pre><!--強制控行-->
+<hr size="10" align="center" noshade width="100%" color="467500">
+<!--水平分線-->
+<pre>
+    
+</pre><!--強制控行-->
+<input type="button" class ="img-btn"value="螢火蟲美景">
+<!--螢火蟲美景按紐-->
+<p><!--換段-->
+    <table border="0">
+        <tr>
+            <td>
+        <div><img src="photo3.jpg"alt="傷心等"width ="500" class="img"></div>
+            </td>
+            <td>
+        <div><img src="photo1.jpg"alt="傷心等"width ="480" class="img"></div>
+        </td>
+        </tr>
+    </table>
+</body><!--圖片展現-->
+<pre>
+    
+</pre><!--強制控行-->
+<hr size="10" align="center" noshade width="100%" color="467500">
+<!--水平分線-->
+<pre>
+    
+</pre><!--強制控行-->
+<table border="0">
+    <tr>
+        <td>
+        <iframe width="620" height="360" src="https://www.youtube.com/embed/C2-fwl04fj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </td>
+    <td>
+        <iframe width="620" height="360" src="https://www.youtube.com/embed/C7jrkSN8KY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </td>
+    </tr>
+</table><!--YouTube影片-->
+<pre>
+    
+</pre><!--強制控行-->
+<hr size="10" align="center" noshade width="100%" color="467500">
+<!--水平分線-->
+<pre>
+    
+</pre><!--強制控行-->
+<table border="0">
+    <tr>
+        <h3>觀光景點</h3>
+        <!--觀光景點-->
+        <h4 align="center">嘉義梨園寮車站</h4>
+        <!--嘉義梨園寮車站-->
+    </tr>
+    <tr>
+        <td>
+            <img src="view3.jpg"width="500">
+        </td>
+        <td>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7257360145923!2d120.61783631420639!3d23.542364902610178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec3d62a0d1bc1%3A0x771810112152c41a!2z5qKo5ZyS5a-u54Gr6LuK56uZ!5e0!3m2!1szh-TW!2stw!4v1641653310840!5m2!1szh-TW!2stw" width="500" height="370" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </td>
+    </tr>
+</table><!--相片及地址-->
+<pre>
+    
+</pre><!--強制控行-->
+<hr size="10" align="center" noshade width="100%" color="467500">
+<!--水平分線-->
+<pre>
+    
+</pre><!--強制控行-->
+<table border="0">
+    <tr>
+        <h3 align="center">放鬆心情換換照</h3>
+        <!--放鬆心情換換照-->
+    </tr>
+    <tr>
+        <td>
+            <img src="https://picsum.photos/500/300">
+        </td>
+        <td>
+            <img src="https://picsum.photos/500/300.jpg">
+        </td>
+    </tr>
+</table><!--隨機照片-->
+<pre>
+    
+</pre><!--強制控行-->
+<hr size="10" align="center" noshade width="100%" color="467500">
+<!--水平分線-->
+<pre>
+    
+</pre><!--強制控行-->
+<table border="0">
+    <tr>
+        <td>
+            <h4>關於我</h4>
+            <!--關於我-->
+        </td>
+        <td>
+            <a href="https://www.facebook.com/profile.php?id=100004874622333&sk=about"target="_blank"><img src="facebook.png"width ="50"></a>
+        </td>
+        <td>
+            <a href="https://instagram.com/patricia__red?utm_medium=copy_link"target="_blank"><img src="instagram.png"width ="50"></a>
+        </td>    
+        <td> 
+            <a href="mailto:love13147371@gmail.com" target="_blank"><img src="gmail.png"width ="60"></a>
+        </td>    
+    </tr>
+</table><!--圖片與連結-->
+<h4 style="background-color:#C48888;"><a href="#top">//回選單</a>//</h4>
+<!--回選單的內部連結-->
+
+<!-- Fixed Footer Start-->
+<div id="fixed-footer-wrap">
+<footer data-role="footer"> <!-- 頁尾 -->
+<div class="footer_mobile" id="footer">
+<h4>/&nbsp;螢火蟲&nbsp;🌟&nbsp; 🔥 &nbsp;🐛&nbsp;firefly glow&nbsp;/</h4>
+</div>
+</footer>
+</div>
+<!-- Fixed Footer End-->
+
+</center>
+</html>
